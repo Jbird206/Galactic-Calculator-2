@@ -7,7 +7,7 @@ describe('Mercury', () => {
   beforeEach(() => {
     mercury = new Solar(43);
 
-    mercury.mercuryAge();
+    mercury.mercuryYears();
   })
 
   test('mercurian age calculated for my age, see above', () => {
@@ -31,7 +31,7 @@ describe('Venus', () => {
   beforeEach(() => {
     venus = new Solar(43);
 
-    venus.venusAge();
+    venus.venusYears();
   })
 
   test('venusian age', () => {
@@ -55,7 +55,7 @@ describe('Mars', () => {
   beforeEach(() => {
     mars = new Solar(43);
 
-    mars.marsAge();
+    mars.marsYears();
   })
 
   test('martian age', () => {
@@ -79,7 +79,7 @@ describe('Jupiter', () => {
   beforeEach(() => {
     jupiter = new Solar(43);
 
-    jupiter.jupiterAge();
+    jupiter.jupiterYears();
   })
 
   test('jupiterian age', () => {
