@@ -12,6 +12,10 @@ Application determines current age(43), life expectancy(82) and life span first 
 
 VS Code, Chrome, NPM.
 
+### Known Bugs
+
+NPM test has an issue with remaining years. Values input and recieved are the same but come up as failed.
+
 
 
 
